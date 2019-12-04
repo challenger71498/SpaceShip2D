@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a99b65d2d169d51478f13ebcadd7af15, type: 3}
+  m_Name: New Space Ship Blue Print
+  m_EditorClassIdentifier: 
+  components:
+  - bluePrint: {fileID: 11400000, guid: 8146c90f60e96164c910ede10bf28b9f, type: 2}
+    status:
+    - direction: 1
+      status: 1
+      componentIndex: -1
+    - direction: 4
+      status: 2
+      componentIndex: 1
+    - direction: 3
+      status: 1
+      componentIndex: -1
+    - direction: 2
+      status: 2
+      componentIndex: 2
+  - bluePrint: {fileID: 11400000, guid: 9fa36dda947090c40b0d722c8555fcd5, type: 2}
+    status:
+    - direction: 1
+      status: 1
+      componentIndex: -1
+    - direction: 4
+      status: 2
+      componentIndex: 3
+    - direction: 3
+      status: 1
+      componentIndex: -1
+    - direction: 2
+      status: 2
+      componentIndex: 0
+  - bluePrint: {fileID: 11400000, guid: 9fa36dda947090c40b0d722c8555fcd5, type: 2}
+    status:
+    - direction: 1
+      status: 1
+      componentIndex: -1
+    - direction: 4
+      status: 2
+      componentIndex: 0
+    - direction: 3
+      status: 1
+      componentIndex: -1
+    - direction: 2
+      status: 1
+      componentIndex: -1
+  - bluePrint: {fileID: 11400000, guid: 9fa36dda947090c40b0d722c8555fcd5, type: 2}
+    status:
+    - direction: 1
+      status: 1
+      componentIndex: -1
+    - direction: 4
+      status: 1
+      componentIndex: -1
+    - direction: 3
+      status: 1
+      componentIndex: -1
+    - direction: 2
+      status: 2
+      componentIndex: 1
